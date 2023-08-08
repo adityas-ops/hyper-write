@@ -7,7 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-     
+     fontFamily:{
+      "inter":['Inter', 'sans-serif']
+     },
+     screens:{
+      'lg':'922px',
+      'xl':'1200px',
+      '2xl':'1440px',
+      'md':'728px',
+      'sm':'480px'
+     }
     },
   },
   plugins: [],

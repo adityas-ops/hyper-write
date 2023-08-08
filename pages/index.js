@@ -1,12 +1,13 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import Image from "next/image";
+import { Inter } from "next/font/google";
+import Hero from "@/components/Hero";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-   <h1 className=' text-[2.5rem] font-[900]'>
-    hello aditya 
-   </h1>
-  )
+    <>
+      <Hero />
+    </>
+  );
 }
